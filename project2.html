@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghouse Mini Project</title>
+    <link rel="stylesheet" href="project2.css">
+    <link rel="icon" href="ghouseminiprojectlogo.webp">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Bungee+Tint&family=Carrois+Gothic+SC&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Liter&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Gothic&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h2>🐾 Welcome to My Image Zone</h2>
+<p>Here you'll explore some random, cute and funny cat images fetched directly from an external API!</p>
+<p>Each image is brought live from: <strong><b style="color: blue;">The Cat API</b></strong> using different fetching techniques. 🐱✨</p>
+ <div class="project2-container">
+    <h2>Fetching The Images From 3 Methods</h2>
+    <div class="methods">
+        <h3>Fetching the image from variable</h3>
+        <div class="mehtod1 method">
+            <p> Variable Image Generation</p>
+            <img class="variable-img img">
+            <button type="submit" class="variable-btn btn">Get Image</button>
+        </div>
+        <h3> Fetching the image from query string</h3>
+        <div class="method2 method2">
+            <p>Query Image Generation </p>
+            <div class="image-container">
+                <img class="query-img1 image">
+            <img class="query-img2 image">
+            </div>
+            <button type="submit" class="query-btn btn">Get Image</button>
+        </div>
+        <h3>Fetching the Images From Headers</h3>
+        <div class="method3 method">
+             <p>Header Image Generation</p>
+             <img class="header-img img">
+             <button type="submit" class="header-btn btn">Get Image</button>
+        </div>
+    </div>
+ </div>
+ <!-- axios link from github -->
+ <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="project2.js"></script>
+</body>
+</html>

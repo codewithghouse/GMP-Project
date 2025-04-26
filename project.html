@@ -1,0 +1,86 @@
+z<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Page</title>
+    <!-- css linking -->
+     <link rel="stylesheet" href="project.css">
+     <!-- logo icon -->
+      <link rel="icon" href="ghouseminiprojectlogo.webp">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Bungee+Tint&family=Carrois+Gothic+SC&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Liter&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Gothic&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+    <h1>Welcome To My Project Zone</h1>
+    <h2>Exploring The Ideas Beyond <b style="color: blueviolet;">Code</b> .. </h2>
+    <h3>Live Projects Powered by Real-Time <b style="color: aqua;">APIs</b></h3>
+
+      <div class="noted">
+        <div class="note-msg">
+            <h4>Note:</h4>
+            <p>1. 💻 These projects are the culmination of my passion for coding. Powered by live APIs, they bring data to life in innovative ways</p>
+            <p>2. 🚀 From random facts to cat pictures, my projects are powered by live APIs that showcase my ability to bring static code to life.</p>
+        </div>
+      </div>
+      <h1 class="demo">🖥️ Check out the interactive projects that fetch data from live APIs and display dynamic content, making the experience more engaging.</h1>
+      <div class="project1-container">
+        <h1>Fetching The Random Fact From 3 Methods</h1>
+        <div class="methods">
+            <h2> fetching Data through <b style="color: aqua;">Variable</b></h2>
+            <div class="method1 container">
+                <p class="variable-fact fact"> Variable fact</p>
+                <button type="submit" class="variable-btn btns"> Get Fact</button>
+            </div>
+            <h2> fetching Data through <b style="color: aqua;">Query String</b></h2>
+            <div class="method2  container">
+                <p class="query-fact1 fact" style="color: #71BBB2;"> Query-string fact 1</p>
+                <p class="query-fact2 fact" style="color: #B2A5FF;"> Query-string fact 2</p>
+                <button type="submit" class="query-btn btns">Get Fact</button>     
+            </div>
+            <h2> fetching Data through <b style="color:aqua;">Headers</b></h2>
+            <div class="method3  container">
+                <p class="header-fact fact"> Header fact</p>
+                <button type="submit" class="header-btn btns"> Get Fact</button>
+    
+            </div>
+            <!-- project 2 container btn -->
+         <div class="project-2-redirect">
+            <button type="submit" class="pjt2-btn"><a href="project2.html" style="text-decoration: none;">View Project 2</a></button>
+            <button type="submit" class="back-btn pjt2-btn">BACK TO HOME</button>
+         </div>
+          </div>
+        </div>
+        <!-- info about the project 1 -->
+        <div class="info-project1">
+            <div class="api-info">
+                <h3>🧠 APIs Used in Project 1:</h3>
+                <ul>
+                   <li>
+                      <strong>1️⃣ Random Fact API:</strong> 
+                      <a href="https://catfact.ninja/facts" target="_blank">https://catfact.ninja/facts</a>
+                      <br>
+                      ➡️ Used for fetching random cat facts.<br>
+                      ➡️ Fetch Method: Axios — Query String (`limit=2`), Headers, Variables.
+                   </li>
+                   <br>
+                   <li>
+                      <strong>2️⃣ Useless Facts API:</strong> 
+                      <a href="https://uselessfacts.jsph.pl/" target="_blank">https://uselessfacts.jsph.pl/</a>
+                      <br>
+                      ➡️ Used for displaying general random facts.<br>
+                      ➡️ Fetch Method: Axios — Query String (`language=en`).
+                   </li>
+                </ul>
+             </div>
+             
+        </div>
+    </main>
+        <!-- axios link  -->
+        <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="project.js"></script>
+</body>
+</html>
