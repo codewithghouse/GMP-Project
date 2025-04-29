@@ -10,6 +10,6 @@ logoname.addEventListener("mouseenter",function(){
 })
 logoname.addEventListener("mouseleave",function(){
     logoname.style.color="#1DCD9F"
-})
+});
 
 
