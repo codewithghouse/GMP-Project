@@ -9,7 +9,7 @@ let variablebtn= document.querySelector(".variable-btn");
 
 
 
-// fetching the data from the variable
+//fetching the data from the variable
 async function Variable(){
  try{
     let Res= await axios.get("https://uselessfacts.jsph.pl/random.json?language=en")
@@ -20,7 +20,7 @@ async function Variable(){
  }
 
 }
-variablebtn.addEventListener("click",function(){
+variablebtn.addEventListener("click",()=>{
 setTimeout(() => {
     let fact= Variable();
 }, 1000);  
