@@ -134,6 +134,10 @@ h3{
     border-radius: 10px;
     border: none;
 }
+.btns:active{
+    color: #00ff88;
+    background-color: black;
+}
 /* paragrapgh fact */
 .fact{
     color: rgb(0, 173, 66);
