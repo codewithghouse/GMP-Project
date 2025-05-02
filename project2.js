@@ -74,3 +74,10 @@ headerbtn.addEventListener("click",  async()=>{
     headerimg.setAttribute("src",link);
     // console.log("the btn was clicked");
 });
+
+
+//back button 
+let bckbtn= document.querySelector(".bck-btn");
+bckbtn.addEventListener("click",function(){
+    window.history.back(-1);
+})
