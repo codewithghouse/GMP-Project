@@ -115,3 +115,20 @@ p{
     color: white;
     background-color: black;
 }
+.bck-btn{
+    height: 40px;
+    width: 130px;
+    color: aquamarine;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 1.2rem;
+}
+.bck-btn:hover{
+    color: #ACD3A8;
+    background-color: #0C0950;
+}
+.bck-btn:active{
+    background-color: aquamarine;
+    color: black;
+}
