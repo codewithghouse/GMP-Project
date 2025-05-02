@@ -279,8 +279,8 @@ footer {
       font-style: normal;
     }
     .nav-info{
-        height: 100px;
-        width: 400px;
+        height: 10px;
+        width: 40px;
         display: flex;
         flex-direction: row;
         margin: 4px;
@@ -296,7 +296,7 @@ footer {
     }
     ul li{
         margin: 15px;
-        font-size: 1.54rem;
+        font-size: 1rem;
         list-style: none;
         opacity: 0.7;
         font-family: "Noto Sans Gothic", sans-serif;
@@ -314,7 +314,7 @@ footer {
     .main{
         margin-top: 10px;
         height: 1300px;
-        width: 100%;
+        width: 375;
         background-color: #09111b;
         border-radius: 10px;
     }
@@ -330,7 +330,7 @@ footer {
     }
     .h1{
         color: #1DCD9F;
-        font-size: 2rem;
+        font-size: 1rem;
         font-family: "Poppins", sans-serif;
         font-weight: 900;
         font-style: normal;
