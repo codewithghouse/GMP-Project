@@ -257,7 +257,7 @@ footer {
     }
     .header{
         height: 120px;
-        width: 100%;
+        width: 390px;
         background-color: #202225;
         border-radius: 20px;
         display: flex;
@@ -269,10 +269,10 @@ footer {
         display:flex;
         align-items: center;
         justify-content: center;
-        height: 20px;
-        width: 40px;
+        height: 10px;
+        width: 20px;
         text-align: center;
-        font-size: 10px;
+        font-size: 5px;
         color: #1DCD9F;
         font-family: "Poppins", sans-serif;
       font-weight: 700;
