@@ -1,7 +1,5 @@
 let body=document.querySelector("body");
 
-
-
 // fetching data from the variable method
 let variableimg=document.querySelector(".variable-img");
 let variablebtn=document.querySelector(".variable-btn");
